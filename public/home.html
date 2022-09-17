@@ -1,0 +1,477 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Jost&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet">
+
+<style>
+    .main-div {
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Jost', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        margin:0px;
+    }
+
+    .package {
+        margin: 60px 0px 60px 0px;
+    }
+
+    .package .pack-large {
+
+        width: 250px;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: yellow;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .package .pack-small {
+
+        width: 170px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: aquamarine;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pack-para {
+        width: 900px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .department {
+        display: grid;
+        grid-template-columns: 3fr 3fr 6fr;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .department li {
+        list-style: none;
+        padding: 10px;
+    }
+
+    .department .bi {
+        color: green;
+
+    }
+
+    .job {
+        background-color: gray;
+        color: white;
+        padding: 20px 10px 20px 10px;
+        margin-bottom: 50px;
+    }
+
+    .job-inside {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+
+    .job-inside li {
+        list-style: none;
+        padding: 5px;
+    }
+
+    .job-inside b {
+        font-size: 18px;
+    }
+
+    .job-inside .bi {
+        font-size: 50px;
+    }
+
+    .top-manager {
+        margin-bottom: 50px;
+    }
+
+    .manager {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .manager .bi {
+        font-size: 100px;
+        padding: 5px;
+    }
+
+    .manager .bi-1-circle {
+        color: #8d7ac5;
+    }
+
+    .manager .bi-2-circle {
+        color: #b98152;;
+    }
+
+    .manager .bi-3-circle {
+        color: #8fbc4a;;
+    }
+
+    .manager .bi-4-circle {
+        color: #499bdc;
+    }
+
+    .manager img {
+        padding: 50px;
+    }
+
+    .inner-manager {
+        margin-top: -40px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        margin: 60px;
+    }
+
+    .button1 {
+
+        padding: 12px;
+        width: 180px;
+        text-align: center;
+        margin-right: 20px;
+        border-radius: 10px;
+        background-color: #615c5c;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .button1:hover,.button2:hover{
+        background-color: antiquewhite;
+        color:black;
+    }
+
+    .button2 {
+
+        padding: 12px;
+        width: 100px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #615c5c;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        cursor:pointer;
+    }
+
+    .student-department {
+        padding: 50px;
+        background-color: #966172;
+        color: white;
+        margin-bottom: 80px;
+    }
+
+    .student-department h1 {
+        margin-bottom: 70px;
+    }
+
+    .inner-std {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .inner-std .bi {
+
+        font-size: 40px;
+    }
+
+    .service {
+        margin-bottom: 80px;
+    }
+
+    .service h1 {
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .inner-service {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card {
+        box-shadow: rgb(51, 51, 51) 1px 5px 8px 10px;
+        height: auto;
+        padding: 10px;
+        width: 300px;
+        text-align: center;
+    }
+</style>
+
+<div class="main-div">
+    <div>
+        <img src="images/nareshit-img/banner.jpg" width="100%" height="550" alt="">
+    </div>
+    <div class="package">
+        <div class="pack-large">
+            Show me what's in this package?
+        </div>
+
+        <div class="pack-small">
+            What is package?
+        </div>
+
+        <div class="pack-para">
+            <p style="line-height:1.5">
+                A package in programming contains multiple classes and their related components (interfaces and
+                annotations). Similar to a computer folder that contains other folders or files, packages hold
+                subpackages and classes. Packages in programming allow groups of code and data to be named more
+                efficiently and avoid duplicate names, which cause an error message.
+            </p>
+        </div>
+    </div>
+
+    <div class="department">
+        <div>
+            <ul>
+                <li><b>Department</b></li>
+                <li>M.Tech</li>
+                <li>B.Tech</li>
+                <li>MCA</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li><b>Included</b></li>
+                <li class="bi bi-check-lg"></li>
+                <li class="bi bi-check-lg"></li>
+                <li class="bi bi-check-lg"></li>
+            </ul>
+        </div>
+
+        <div>
+            <img src="images/nareshit-img/pic1.png" width="100%" height="200">
+        </div>
+    </div>
+
+    <div class="job">
+        <h1 align="center">What is the job?</h1>
+        <div class="job-inside">
+            <div>
+                <ul>
+                    <li class="bi bi-keyboard"></li>
+                    <li><b>Types of jobs</b></li>
+                    <li>Volcanologist. ...</li>
+                    <li>Quantum physicist. ...</li>
+                    <li>Oceanographer. ...</li>
+                    <li>Biomedical engineer. ...</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="bi bi-file-word"></li>
+                    <li><b>Define job profile</b></li>
+                    <li style="line-height:1.5">
+                        Job profile developed by the personnel department of a business might include such things as job
+                        responsibilities, required qualifications, advancement prospects.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="bi bi-wordpress"></li>
+                    <li><b>Job profile summary</b></li>
+                    <li style="line-height:1.5">
+                        Profile summary is a summary of your education, skills, career experiences, and goals.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="bi bi-laptop"></li>
+                    <li><b>The IT skills</b></li>
+                    <li>Coding.</li>
+                    <li>Communication.</li>
+                    <li>Networks.</li>
+                    <li>Time Management.</li>
+                    <li>More Information Technology Skills.</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="bi bi-laptop"></li>
+                    <li><b>Freshers key skills</b></li>
+                    <li>Communication.</li>
+                    <li>Ability to Work Under Pressure.</li>
+                    <li>Decision Making.</li>
+                    <li>Time Management.</li>
+                    <li>Self-motivation.</li>
+                    <li>Conflict Resolution.</li>
+                    <li>personal skills?</li>
+                    <li>Leadership.</li>
+                    <li>Adaptability.</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="bi bi-laptop"></li>
+                    <li><b>Personal skills</b></li>
+                    <li style="line-height:1.5">
+                        A skill is the ability to do something well, a certain competence or proficiency. Skills are
+                        typically acquired or developed through direct experiences and training, and they can require
+                        sustained effort.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-manager">
+        <div class="manager">
+            <img src="images/nareshit-img/ind1.jpg" align="right" width="350" height="150" alt="">
+            <div class="inner-manager">
+                <h3><span class="bi bi-1-circle"></span>
+                    Why do you want this job?
+                </h3>
+                <p style="line-height:1.5">
+                    The hiring manager wants to: Learn about your career goals and how this position fits into your
+                    plan. Make sure that you are sincerely interested in the job and will be motivated to perform if
+                    hired. Find out what you know about the company, industry, position (and if you took the time to
+                    research).
+                </p>
+            </div>
+        </div>
+
+        <div class="manager">
+            <img src="images/nareshit-img/ind2.png" align="left" width="400" height="150" alt="">
+            <div class="inner-manager">
+                <h3><span class="bi bi-2-circle"></span>
+                    What is a CV example?
+                </h3>
+                <p style="line-height:1.5">
+                    A resume is a brief summary. ... If you were writing your resume you would include only the work
+                    information that relates specifically to the job you're applying for, but for a Curriculum Vitae,
+                    you would also include all your teaching experience, lab and field work..
+                </p>
+            </div>
+        </div>
+
+        <div class="manager">
+            <img src="images/nareshit-img/ind3.png" align="right" width="350" height="150" alt="">
+            <div class="inner-manager">
+                <h3><span class="bi bi-3-circle"></span>
+                    Do you need a resume for your first job?
+                </h3>
+                <p style="line-height:1.5">
+                    When writing your first resume with no work experience, it's appropriate to include casual jobs
+                    like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and the way
+                    you present yourself, your skills, and your assets to a hiring manager begins with a strong resume.
+                </p>
+            </div>
+        </div>
+
+        <div class="manager">
+            <img src="images/nareshit-img/ind4.jpg" align="left" width="350" height="150" alt="">
+            <div class="inner-manager">
+                <h3><span class="bi bi-4-circle"></span>
+                    Why do you think you can do well in this job?
+                </h3>
+                <p style="line-height:1.5">
+                    I believe I will do well in this job because I have the relevant skills and it is my field of
+                    interest. ... I have a confident that I can do well in the job because of self confidence, positive
+                    attitude. Previous success also brings self confidence for the future success.
+                </p>
+            </div>
+        </div>
+
+        <div class="button">
+            <span class="button1">Request call back</span>
+            <span class="button2">FAQ'S</span>
+        </div>
+
+    </div>
+
+    <div class="student-department">
+        <h1 align="center">Student Department Details</h1>
+        <div class="inner-std">
+            <div>
+                <span class="bi bi-hourglass"></span>
+                <h4>Average Salary Offered</h4>
+                <h3>INR 7 L per annum</h3>
+                <h4>per annum</h4>
+            </div>
+
+            <div>
+                <span class="bi bi-arrow-repeat"></span>
+                <h4>Duration</h4>
+                <h3>2</h3>
+                <h4>years</h4>
+            </div>
+
+            <div>
+                <span class="bi bi-hand-thumbs-up-fill"></span>
+                <h4>Average Fees Incurred</h4>
+                <h3>INR 25,000 - 2 L</h3>
+                <h4>per annum</h4>
+            </div>
+
+            <div>
+                <span class="bi bi-flag-fill"></span>
+                <h4>Indian Institute of Technology, [IIT] Kanpur</h4>
+                <h3>49,035</h3>
+                <h4>Kanpur</h4>
+            </div>
+        </div>
+        <p align="center">* job: A group of homogeneous tasks related by similarity of functions.</p>
+    </div>
+
+    <div class="service">
+        <h1 align="center">SERVICES</h1>
+        <div class="inner-service">
+            <div class="card">
+                <img src="images/nareshit-img/web.jpg" width="100%">
+                <h3>WEB DESIGN</h3>
+                <p align="justify">
+                    <i>
+                        A Web Designing course enables students to learn various techniques, tools and programming
+                        languages in order to create and maintain web pages.
+                    </i>
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="images/nareshit-img/it.jpg" width="100%">
+                <h3>IT SERVICES</h3>
+                <p align="justify">
+                    <i>
+                        IT Service Management or ITSM is the set of activities that can help manage the services
+                        delivered
+                        to end-users. Based on the ITIL framework of best practices, ITIL service management provides a
+                        set
+                        of best practices.
+                    </i>
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="images/nareshit-img/market.jpg" width="100%">
+                <h3>WEB MARKETING</h3>
+                <p align="justify">
+                    <i>
+                        Digital marketing, also called online marketing, is the promotion of brands to connect with
+                        potential customers using the internet.
+                    </i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>

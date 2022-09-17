@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 2.5fr 9.5fr;
+        }
+
+        .navbar-items {
+            background-color: #54B689;
+            height: 800px;
+            padding: 20px;
+            color: white;
+        }
+
+        .navbar-items img {
+            padding: 10px;
+            border-radius: 100px;
+
+        }
+
+        .describe {
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .navbar-items li {
+            list-style: none;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .navbar-items a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        .navbar-items select {
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .navbar-items option {
+            background-color: #54B689;
+            
+            color: white;
+
+        }
+
+        .navbar-items button {
+            margin-left: 70px;
+            padding: 10px;
+            width: 100px;
+            background-color: #2c6449;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .social {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .nav-list .bi,
+        .social .bi {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        main{
+            padding: 20px;
+            height: 800px;
+            overflow: auto;
+        }
+
+
+        table{
+            margin:40px;
+            
+        }
+        tr,td,th{
+             border: 1px solid rgba(185, 182, 182,0.5);
+             
+             font-size: 14px;
+        }
+        .btn{
+            background-color:#49c187;
+            color:white;
+            font-weight: bold;
+        }
+        th,.bi-check-lg{
+            color: #49c187;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .faq{
+            border-radius: 5px;
+            padding:15px;
+            margin-bottom: 10px;
+            width:600px;
+            background-color: rgb(228, 223, 223);
+            font-weight: bolder;
+
+        }
+        .faq-body{
+            display: flex;
+            justify-content: center;
+        }
+        footer{
+            color:white;
+            text-align: center;
+            background-color: black;
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+           
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar-items">
+            <h3 align="center"><b>Priti priyadarsini sahoo</b></h3>
+            <div align="center">
+                <img src="images/profile.png" width="150" height="150">
+            </div>
+            <div class="describe" align="center">
+                Hi, my name is Priti priyadarsini sahoo and I'm a senior software engineer. Welcome to my personal website!
+            </div>
+            <div class="social" align="center">
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-linkedin"></span>
+                <span class="bi bi-github"></span>
+                <span class="bi bi-stack-overflow"></span>
+
+            </div>
+            <hr>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="../index.html"><span class="bi bi-person-fill"></span>About Me</a></li>
+                    <li><a href="portfolio.html"><span class="bi bi-laptop-fill"></span>Portfolio</a></li>
+                    <li><a href="portfolio-service.html"><span class="bi bi-briefcase-fill"></span>Services and Pricing</a></li>
+                    <li><a href="resume.html"><span class="bi bi-file-text-fill"></span>Resume</a></li>
+                    <li><a href="blog.html"><span class="bi bi-ear-fill"></span>Blog</a></li>
+                    <li><a href="portfolio-contact.html"><span class="bi bi-envelope-paper-fill"></span>Contact</a></li>
+                    <li><span class="bi bi-gear-fill"></span>
+                        <select name="more">
+                            <option value="">More Pages</option>
+                            <option value="">Project Page</option>
+                            <option value="">Blog Home 1</option>
+                            <option value="">Blog Home 2</option>
+                            <option value="">Blog Post</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+
+            <button><a href="portfolio-contact.html">Hire Me</a></button>
+        </nav>
+
+        <main>
+            <div align="center">
+                <h1 class="pt-5"><b>Services & Pricing</b></h1>
+                <p>
+                    I have 10+ years of development experience building software for the web and mobile devices. You can
+                    take a look at my project portfolio and online resume to find out more about my skills and
+                    experiences.
+                </p>
+                <p>
+                    I'm currently taking on freelance software development work. You're welcome to contact me for a
+                    custom quote for your project. I also offer development service packages with fixed pricing.
+                </p>
+            </div>
+            <div align="center">
+                <h3 class="pt-5"><b>Service Packages</b></h3>
+                <div>
+                    <table frame="box" align="center" cellpadding="10">
+                        <thead>
+                            <tr >
+                                <th width="200" class="py-3">&nbsp;</th>
+                                <th width="200" align="center">Basic</th>
+                                <th width="200" align="center">Standard</th>
+                                <th width="200" align="center">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Package Price</b></td>
+                                <td align="center" style="font-size:26px"><b>$900</b></td>
+                                <td align="center" style="font-size:26px"><b>$2500</b></td>
+                                <td align="center" style="font-size:26px"><b>$5000+</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Details</b></td>
+                                <td align="justify">A small app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                    ligula eget dolor.</td>
+                                <td align="justify">An medium app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                    ligula eget dolor.</td>
+                                <td align="justify">A complex app lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                    ligula eget dolor.</td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <h5><b>Feature Lorem</b></h5>
+                                    <b>
+                                        Optional feature description goes here. Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit.
+                                    </b>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="justify">
+                                    <h5><b>Feature Ipsum</b></h5>
+                                    <b>
+                                        Optional feature description goes here. Lorem ipsum dolor sit amet, consectetuer
+                                    adipiscing elit.
+                                    </b>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+    
+                            <tr>
+                                <td><b>Feature Commodo</b></td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Feature Consectetuer</b></td>
+                                <td align="center">
+                                    -
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Feature Aenean</b></td>
+                                <td align="center">
+                                    -
+                                </td>
+                                <td align="center">
+                                    -
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Feature Duis</b></td>
+                                <td align="center">
+                                    -
+                                </td>
+                                <td align="center">
+                                    -
+                                </td>
+                                <td align="center">
+                                    <span class="bi bi-check-lg"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Revisions</b></td>
+                                <td align="center">1</td>
+                                <td align="center">2</td>
+                                <td align="center">5+</td>
+                            </tr>
+                            <tr>
+                                <td><b>Delivery Time</b></td>
+                                <td align="center">7 days</td>
+                                <td align="center">14 days</td>
+                                <td align="center">2-3 month(s)</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td align="center"><button class="btn">Book Now</button></td>
+                                <td align="center"><button class="btn">Book Now</button></td>
+                                <td align="center"><button class="btn">Book Now</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+            <div>
+                <div align="center" class="mb-5">
+                    <h2 class="my-4"><b>FAQs</b></h2>
+                    <p>You can use this section to address any queries your potential clients may have.</p>
+                
+                </div>
+                <div class="faq-body">
+                    <div>
+                        <div class="faq">
+                            Can you sit amet quam eget lacinia?
+                        </div>
+                        <div class="faq">
+                            What is the ipsum dolor sit amet quam tortor?
+                        </div>
+                        <div class="faq">
+                            What if ultricies nec vulputate eget?
+                        </div>
+                        <div class="faq">
+                            Is it possible to tellus eget auctor condimentum?
+                        </div>
+                        <div class="faq">
+                             Do you elementum turpis semper imperdiet?
+                        </div>
+                        <div class="faq">
+                             How much imperdiet lorem sem non nisl?
+                        </div>
+                        <div class="faq">
+                            How long does it take to imperdiet lorem sem non nisl?
+                        </div>
+                        <div class="faq">
+                            Where can I imperdiet lorem sem non nisl?
+                        </div>
+                        <div class="faq">
+                            When can lacinia ac dui ut semper?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <footer class="py-2">
+        Template Copyright <font color="#54B689">© 3rd Wave Media</font>
+    </footer>
+</body>
+
+</html>
